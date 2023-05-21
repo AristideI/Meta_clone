@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(56, 56, 56);
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 3%;
+}
+
+.right {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+.logo {
+    width: 6rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.sup {
+    padding: 1px 1.5rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.267);
+}
+
+a {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imacon {
+    width: 30px;
+    height: auto;
+}
+
+
+.hero-one {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 188vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.foto1 {
+    width: 60rem;
+}
+
+.hh {
+    font-size: 3rem;
+}
+.ht {
+    font-size: 1.5rem;
+}
+
+.sl {
+    width: 200px;
+}
+
+.secondtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+}
+
+.hero-two {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 150vh;
+    background: url(img/two.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12rem;
+    align-items: center;
+}
+
+.down {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem
+    
+}
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.mill {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tmill {
+    font-size: 1.6rem;
+}
+
+.hero-three {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 170vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6rem;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5rem;
+    padding-top: 6rem;
+}
+
+.about {
+    width: 72%;
+    margin: 1px auto;
+    height: 40vh;
+    /* background-color: aqua; */
+    position: relative;
+    
+}
+
+.more-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem .1px;
+}
+
+.caption {
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(56, 56, 56);
+}
+
+.more1 {
+    width: 50%;
+    height: 11rem;
+    margin-top: 1rem;
+    background-color: rgba(197, 197, 197, 0.308);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-photo {
+    width: 9rem;
+    height: 9rem;
+    background: url(img/about1.jpg);
+    background-size: cover;
+}
+.about-photo1 {
+    width: 9rem;
+    height: 9rem;
+    background: url(img/about2.jpg);
+    background-size: cover;
+}
+
+.somet {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(145, 145, 145);
+}
+
+.newer {
+    text-align: center  ;
+}
+
+.hhh {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.htt {
+    font-size: 2rem;
+}
